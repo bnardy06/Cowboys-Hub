@@ -1,5 +1,6 @@
 <%- include("partials/header.ejs") %>
 
+<!-- Jumbotron-->
 <header class="jumbotron jumbotron-fluid">
     <div class="row">
       <div class="col">
@@ -8,15 +9,10 @@
   </div>
   </header>
 
-
-<div class="row">
-    <div class="column banner">
-      <img src="images/trophies.jpeg" alt="cowboys-banner" style="width: 100%">
-    </div>
-    <div class="column stadium">
-      <img src="images/cowboysStadium.jpeg" alt="cowboys-stadium" style="width: 100%">
-    </div>
-    <div class="column banner">
-      <img src="images/trophies.jpeg" alt="cowboys-banner" style="width:100%">
-    </div> 
-  </div>
+  <!--Making image scroll-->
+ <center>
+    <marquee behavior="scroll" direction="left">
+        <img class="cowboysImage" src="images/cowboysBanner.jpeg" alt="cowboys-banner">
+        <img class="cowboysImage" src="images/cowboysP1.jpeg" alt="cowboys-celebration">
+    </marquee>
+ </center>
