@@ -5,12 +5,64 @@
     width: 50%;
    
 }
+/* cowboys slideshow */
+.column {
+    float: left;
+    width: 100%;
+    padding: 5px;
+  }
 
+  .pic {
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+  }
 
-
-.cowboysImage {
-    width: 10%
+.main {
+    -moz-animation: marquee 20s linear infinite;
+        -webkit-animation: marquee 20s linear infinite;
+        animation: marquee 20s linear infinite;
 }
+
+@-moz-keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  @-webkit-keyframes marquee {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  @keyframes marquee {
+    0% {
+      -moz-transform: translateX(100%);
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%)
+    }
+    100% {
+      -moz-transform: translateX(-100%);
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+    }
+  }
+   
+  
+   
+  
+
+   
+  
+    
+    
+    
+    
 
 
 
