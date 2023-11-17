@@ -60,21 +60,23 @@
 
 /* NavBar */
 
-.navbar {
-    
+.navi {
+    background-color: #0C356A;
 }
 
 .nav-logo {
     width: 30%;
+   background-color: #0C356A;
     
 }
 
 .nav-link {
-    color: #0C356A;
+    color: white;
     font-family: "Monsterrat-Light";
     font-size: 1.5rem;
     
 }
+
 
   
    
