@@ -77,6 +77,16 @@
     
 }
 
+/*Scheduler*/
+.t-schedule {
+    border: 5px  solid #0C356A; 
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.t-underline {
+    border-bottom:1px solid black
+}
 
   
    

@@ -1,9 +1,15 @@
 <%- include("partials/header.ejs") %>
 
+ 
+<!--
+<audio src="media/SNFtheme.mp3"></audio>
 
-<audio autoplay preload='auto' loop id="myAudio">
-    <source src="media/SNFtheme.mp3"  type="audio/mpeg" >
-  </audio>
+ window.addEventListener("DOMContentLoaded", event => {
+    const audio = document.querySelector("audio");
+    audio.volume = 0.2;
+    audio.play();
+  }); 
+-->
 
 
 <!-- Jumbotron-->
@@ -55,6 +61,70 @@
        </div>
     </div>
   </div>
+
+<!-- Schedule-->
+<table class="t-schedule"> 
+    <th class="t-underline"> Schedule </th>
+    <tr>
+        <tr class="t-underline">
+            <td> AT New York </td>
+        </tr>
+        <tr class="t-underline">
+            <td> New York Jets</td>
+        </tr>
+        <tr class="t-underline">
+            <td> AT Arionza Cardianals</td>
+        </tr>
+        <tr class="t-underline">
+            <td> New England Patriots </td>
+        </tr>
+        <tr class="t-underline">
+            <td> AT San Francisco 49ers </td>
+        </tr>
+        <tr class="t-underline">
+            <td> AT Los Angeles Chargers </td>
+        </tr>
+        <tr class="t-underline">
+            <td> BYE </td>
+        </tr>
+        <tr class="t-underline">
+            <td>  Los Angeles Rams </td>
+        </tr>
+        <tr class="t-underline">
+            <td> AT Philadelphia Eagles </td>
+        </tr>
+        <tr class="t-underline">
+            <td> New York Giants</td>
+        </tr>
+        <tr class="t-underline">
+            <td> AT Carolina Panthers </td>
+        </tr>
+        <tr class="t-underline">
+            <td> Washington Commanders </td>
+        </tr>
+        <tr class="t-underline">
+            <td> Seattle Seahawks </td>
+        </tr>
+        <tr class="t-underline">
+            <td> Philadelphia Eagles </td>
+        </tr>
+        <tr class="t-underline">
+            <td> At Buffalo Bills </td>
+        </tr>
+        <tr class="t-underline">
+            <td>AT Miami Dolphins </td>
+        </tr>
+        <tr class="t-underline">
+            <td> Detroit Lions </td>
+        </tr>
+        <tr class="t-underline">
+            <td> AT Washington Commanders(TBD) </td>
+        </tr>
+        
+        
+    </tr>
+    
+</table>
 
         
     
