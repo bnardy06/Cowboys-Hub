@@ -13,7 +13,6 @@
     width: 93%;
     padding: 5px;
     border: 5px  solid #0C356A; 
-    background-color: #555;
     margin-top: 1px;
   }
 
@@ -61,17 +60,17 @@
 /* NavBar */
 
 .navi {
-    background-color: #0C356A;
+    border-bottom: 0.5px solid gray;
 }
 
 .nav-logo {
     width: 30%;
-   background-color: #0C356A;
+   
     
 }
 
 .nav-link {
-    color: white;
+    color: #0C356A;;
     font-family: "Monsterrat-Light";
     font-size: 1.5rem;
     
